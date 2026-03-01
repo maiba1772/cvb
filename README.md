@@ -2,7 +2,7 @@
 
 这是一个用 Go 语言实现的 CVB 编程语言解释器。
 
-官网:https://keen-mandazi-dfe178.netlify.app/
+官网:https://cvb-code.netlify.app/
 (AI开发的官网哈！）
 
 ## 项目结构 📁
