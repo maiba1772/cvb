@@ -1,0 +1,13 @@
+﻿(# Modules Example #)
+
+#import<math, random, shell>
+
+#result=>math.sqrt(16)
+#print=>int&result
+
+#rand=>random.int(1, 100)
+#print=>int&rand
+
+#cmd_result=>shell.exec("echo Hello from CVB")
+#if cmd_result.success:
+  #print=>str&cmd_result.stdout

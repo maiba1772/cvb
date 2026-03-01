@@ -1,0 +1,6 @@
+﻿(# Hello World Example #)
+
+#print=>str&"Hello, World!"
+
+name=>str&"CVB"
+#print=>str&"Welcome to " + name

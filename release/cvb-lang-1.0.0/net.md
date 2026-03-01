@@ -1,0 +1,43 @@
+**net库说明、函数说明**
+
+net库发出请求与引用
+```cvb
+#import<net>
+net.request(url,method,data):{
+    url=>定义请求地址
+    method=>定义请求方法
+    data=>定义请求数据类型(如json或者text)
+    data.json=>定义json请求
+    data.text=>定义text请求
+    json.变量名=>定义json请求中的变量名
+    env.变量名=>定义text请求中的变量名
+}:
+```
+net库服务请求
+```cvb
+#import<net>
+net.sever(port,type,domain):{
+    port=>定义服务端口
+    type=>定义服务类型(如http或者https或tcp,srv等)
+    domain=>定义服务域名
+    domain.dns=>定义服务域名优先解析那个DNS服务器
+    domain.ip(blak.list)=>定义服务不给予哪些ip服务
+    net.directory=>定义服务目录
+    directory.path=>定义服务文件的文件名
+}
+```
+net库服务响应
+```cvb
+#import<net>
+net.severgo(port,type,go):{
+    port=>定义服务端口
+    type=>定义返回类型
+    type.text=>定义返回text类型
+    type.json=>定义返回json类型
+    type.json=>定义返回结果(动态内容用变量)
+    type.json.变量名=>定义返回json中的变量名
+    type.text.变量名=>定义返回text中的变量值
+    type.text.变量名.值=>定义返回text中的变量值
+    go=>定义服务响应函数
+}
+```

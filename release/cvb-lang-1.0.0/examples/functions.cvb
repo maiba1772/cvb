@@ -1,0 +1,8 @@
+﻿(# Functions Example #)
+
+#def greet(name):
+  result=>str&"Hello, " + name
+  #print=>str&result
+
+greet("World")
+greet("CVB")

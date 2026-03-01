@@ -1,0 +1,16 @@
+﻿(# Control Flow Example #)
+
+score=>int&85
+#if score >= 60:
+  #print=>str&"Pass"
+#else:
+  #print=>str&"Fail"
+
+counter=>int&0
+#while TRUE=3:
+  counter=>int&counter+1
+  #print=>int&counter
+
+items=>list&["a", "b", "c"]
+#for item in items:
+  #print=>str&item

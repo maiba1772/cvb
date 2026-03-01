@@ -1,0 +1,9 @@
+﻿(# Variables Example #)
+
+message=>str&"Hello CVB!"
+age=>int&25
+fruits=>list&["apple", "banana", "orange"]
+person=>dic&{"name": "Alice", "age": "25"}
+
+#print=>str&message
+#print=>int&age
