@@ -4,6 +4,7 @@
 
 官网:https://cvb-code.netlify.app/
 (AI开发的官网哈！）
+vs code高亮插件:https://github.com/maiba1772/cvb-vs-code
 
 ## 项目结构 📁
 
